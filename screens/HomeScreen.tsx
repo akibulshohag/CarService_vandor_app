@@ -1,5 +1,4 @@
 import { useNavigation } from "@react-navigation/native";
-import { useState } from "react";
 import {
   Dimensions,
   SafeAreaView,
@@ -21,9 +20,6 @@ let reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w\w+)+$/;
 
 export default function TabTwoScreen() {
   const navigation = useNavigation();
-
-  const [email, setemail] = useState("");
-  const [passWord, setpassWord] = useState("");
 
   return (
     <View style={styles.container}>
