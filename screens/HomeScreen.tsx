@@ -75,7 +75,7 @@ export default function TabTwoScreen() {
                 bezier
                 style={{
                   marginVertical: 8,
-                  borderRadius: 5,
+                  borderRadius: 6,
                 }}
               />
             </View>
